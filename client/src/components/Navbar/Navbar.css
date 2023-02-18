@@ -1,0 +1,129 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+.main-nav{
+    height:47px;
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px #ef8236;
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    background-color: #f8f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    padding: 5px 20px;
+}
+
+.nav-item{
+    margin: 0px 3px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    transition: 0.2s;
+}
+
+.nav-btn{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-weight: 400;
+}
+
+.nav-item:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.navbar form{
+    flex-grow: 1;
+    padding: 0px 0px 0px 10px;
+    position: relative;
+}
+
+.navbar form input{
+    min-width: 94%;
+    margin: 0;
+    padding: 8px 0px 8px 32px;
+    font-size: 13px;
+    border: solid 1px #0000003e;
+    border-radius: 3px;
+}
+
+.navbar form .search-icon {
+    position: absolute;
+    left: 25px;
+    top: 8px;
+}
+.nav-links{
+    width:36px;
+    height: 17px;
+    margin-left: 0px;
+    padding: 7px 13px;
+    border: solid 1px;
+    border-color: #7aa7c7;
+    box-shadow: var(inset 0 1px 0 0 hsla(0,0%,100%,0.7));
+    border-radius: 3px;
+    background-color: #e1ecf4;
+    cursor: pointer;
+    color:#39739d;
+    font-weight: 400;
+}
+
+.nav-links:hover{
+    background-color: #a0c8e4;
+    color:black;
+}
+.nav-adjust{
+    font-size: 15px;
+}
+
+.nav-signup{
+    min-width: 0%;
+    margin-top: 2px;
+    margin-left: -60px;
+    padding: 7px 13px;
+    border: 1px solid transparent;
+    border-color: #379fef;
+    border-radius: 3px;
+    color:#ffffff;
+    background-color: #0a95ff;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: normal;
+    box-shadow: var(inset 0 4px 0 0 hsla(0, 0%, 100%, 0.4));
+} 
+.nav-signup:hover{
+    background-color:#0063bf;
+}
+.deffect1{
+    width: 60px;
+    height: 1px;
+    position: relative;
+    left: -12px;
+    top: -25px;
+    background-color:white;
+    border-radius: 5px;
+}
+.deffect2{
+    width:65px;
+    min-height:0.2px;
+    background-color: #8ac6fa;
+    position: relative;
+    left: 8px;
+    top: -14.9px;
+
+}
+

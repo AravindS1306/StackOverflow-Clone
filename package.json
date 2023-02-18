@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "use the above command on the client side to install dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aravind",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
